@@ -46,7 +46,7 @@ Let's do this, and we will obtain the creation of our SUID root shell in the tem
 
 Now all that remains is to execute the following commands in the target machine, to open the shell and read the flag of the "root" user, contained in its home folder.
 
-`⁠/tmp/shell -p`
+`⁠/tmp/shell -p`\
 `⁠cat /root/root.txt`
 
 The challenge is over!
