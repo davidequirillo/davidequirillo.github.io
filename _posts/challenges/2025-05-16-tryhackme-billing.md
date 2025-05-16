@@ -2,7 +2,7 @@
 layout: post
 title: TryHackMe - "Billing"
 categories: Challenges
-tags: red-team, attack 
+tags: red-team attack 
 ---
 In this challenge we see how a known vulnerability of a server-side web application, together with an incorrect configuration of the usage privileges of a "root" application, allows to take total control of the target system.
 
