@@ -2,8 +2,10 @@
 layout: post
 title: TryHackMe - "Billing"
 categories: Challenges
-tags: red-team attack 
+tags: red-team pen-testing 
 ---
+[Link to the challenge](https://tryhackme.com/room/billing)
+
 In this challenge we see how a known vulnerability of a server-side web application, together with an incorrect configuration of the usage privileges of a "root" application, allows to take total control of the target system.
 
 The web application in question is "MagnusBilling", version 6.0. 
