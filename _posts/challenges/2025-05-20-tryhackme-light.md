@@ -1,0 +1,56 @@
+---
+layout: post
+title: TryHackMe - "Light"
+categories: Challenges
+tags: red-team pen-testing 
+---
+[Link to the challenge](https://tryhackme.com/room/lightroom)
+
+The application communicates with the client using a simple, custom, text-based application protocol over TCP, but the vulnerability is not in the protocol.
+
+The server-side application interfaces with a SQL database: we can easily discover this by writing smokey' instead of smokey in the text prompt, i.e. by adding a simple quote. 
+If we enter the username correctly, the password is returned correctly, while if we add the quote to the username, an SQL error containing the keyword "LIMIT" is returned.
+
+This error tells us that the server-side application is vulnerable to SQL injection: it does not sanitize string delimiters (the quotes) used in SQL to define strings, so the quotes are treated like special characters and not normal characters, and therefore we can forge an input string, to make the server execute a malicious sql query.
+
+Here is the input string containing the sql injection that allows us to extract the passwords of other users from the server database: 
+
+    aaa' OR username LIKE 'a%
+
+In this case, we are given the password of a user whose name begins with the letter "a".
+Playing with the LIKE keyword in this way, we can easily find the password of all 8 users, contained in the current server-side table.
+
+We are so happy that we can find the passwords of all users in this way, but unfortunately among these users the administrator was not found.
+So where is the administrator? Surely it is in another table.
+
+Sql injection based on "union" comes to our rescue, which allows us to search for rows contained in other tables.
+
+    aaa' Union Select username FROM users WHERE '1'='1
+
+Note: I capitalized "Union Select" to bypass server-side checking of these keywords.
+
+However, we are not lucky, because "users" table does not exist, and even if we try with "admins", "administrators", etc., we would notice that it does not work anyway: the tables mentioned do not exist.
+Probably the table containing the administrator has a particular name that we cannot guess.
+
+We need to query the database schema, and we can do it with specific sql instructions, which in general are different for each dbms.
+I have tried so many of these common instructions to query the database schema in order to find the names of the tables, but all these attempts have had no positive outcome.
+
+I hadn't considered that the server side dbms is not MySql, it's not Oracle, it's not Postgres, but it's simply **SQLite**. I hadn't thought about it.
+
+Here, now that we know that the server side dbms is SQLite, we can query the database schema to find out the name of the table that contains the administrator password
+
+    aaa' Union Select name FROM sqlite_master WHERE type='table
+
+This sql injection gives us the name of the table containing admin, and trivially this name is "admintable" (I hadn't even thought about it when I tried; but it's not really a guessable name)
+
+Here, now we can find the administrator name and password by using the following code injections:
+
+    aaa' Union Select username FROM admintable WHERE username LIKE '%admin%
+
+    aaa' Union Select password FROM admintable WHERE username LIKE '%admin%
+
+We can find the flag too, using this injection:
+
+    aaa' Union Select password FROM admintable WHERE username LIKE '%flag%
+
+Challenge done!
