@@ -46,7 +46,7 @@ We do not present the complete script of all the subfunctions to avoid giving aw
     var i = 0;
     for (let word of words) {
         result = 2;
-        while (result == 2) { // while captcha is not recognized we continue with the same password attempt
+        while (result == 2) { // while captcha is not recognized we will retry login with the same password and a new captcha
             console.log(i + ";admin:" + word + ";csrf:" + csrf_str + ";captcha:" + captcha_str);
             result = await custom_login(login_url, session_id, username, word, csrf_str, captcha_str);
             if (result == 0) { // login successful 
@@ -73,9 +73,9 @@ We do not present the complete script of all the subfunctions to avoid giving aw
         i++;
     }
 
-In summary, the first request to the index server page is mainly to capture the session number which will remain fixed throughout the attack, and also capture the first csrf token, which we use on the first login attempt.
+In summary, the first request to the index server page is mainly to capture the session number which will remain fixed throughout the attack, and also capture the first csrf token (and captcha), which we use on the first login attempt.
 
-After that, the cycle begins: for each word in the dictionary (rockyou.txt), we do POST login request sending username, password, csrf_token, captcha string (and cookie header with session_id) to our "custom_login" function, which is very similar to the original login() function defined in "script.js" file.
+After that, the cycle begins: for each _word_ in the dictionary (rockyou.txt), we do POST login request sending username, password (_word_), csrf_token, captcha string, and cookie header with session_id, calling our "custom_login" function, which is very similar to the original login() function defined in "script.js" file, and it returns a result based on the server response.
 
 - If result of our "custom_login" is 0 (successful login) we break the loop 
 - If result is 1 (failed login) we move on, requesting a new login page in order to extract a new csrf token, and requesting a new captcha from the server, and then making a new POST login attempt, etc. etc..
