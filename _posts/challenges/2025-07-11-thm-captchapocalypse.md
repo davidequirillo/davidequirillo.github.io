@@ -2,7 +2,7 @@
 layout: post
 title: TryHackMe - "CAPTCHApocalypse"
 categories: Challenges
-tags: red-team pen-testing 
+tags: pen-testing 
 ---
 [Link to the challenge](https://tryhackme.com/room/captchapocalypse)
 
