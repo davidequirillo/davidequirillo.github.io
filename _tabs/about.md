@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 6
 ---
 
 This blog contains my write-ups about cybersecurity: hacking challenges available on some web hacking platforms, home labs, programming, etc.

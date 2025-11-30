@@ -1,7 +1,7 @@
 ---
 title: Disclaimer
 icon: fas fa-scale-balanced
-order: 5
+order: 7
 ---
 ## ⚖️ Legal Disclaimer
 
