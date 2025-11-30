@@ -16,10 +16,10 @@ timezone: Europe/Rome
 
 title: Davide Quirillo # the main title
 
-tagline: My cybersecurity write-ups # it will display as the subtitle
+tagline: My cybersecurity journey # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  My write-ups about cybersecurity, hacking, red teaming, etc.
+  hacking, challenges, labs, programming
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
