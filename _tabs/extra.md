@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 title: Extra
-icon: fas fa-list
+icon: fas fa-project-diagram
 order: 5
 ---
 ## CSRF/CORS Defense: origin, referer, anti-csrf token
