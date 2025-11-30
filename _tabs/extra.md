@@ -1,5 +1,4 @@
 ---
-# the default layout is 'page'
 title: Extra
 icon: fas fa-project-diagram
 order: 5

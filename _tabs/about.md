@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 6
 ---
 
-This blog contains my write-ups about cybersecurity: hacking challenges available on some web hacking platforms, home labs, programming, etc.
+This web site contains my write-ups about cybersecurity: hacking challenges, home labs, programming, examples, etc. etc.
 
 ## My tryhackme badge
 
