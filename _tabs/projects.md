@@ -1,5 +1,4 @@
 ---
-# the default layout is 'page'
 title: Projects
 icon: fas fa-code
 order: 4
