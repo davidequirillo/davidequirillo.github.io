@@ -10,6 +10,6 @@ This server-side web application has good defenses against CSRF (cross-site requ
 - [csrf-test.davidequirillo.eu](https://csrf-test.davidequirillo.eu)
 
 ## XSS Example: steal sensitive data
-A small example of a XSS payload (sanitized and not sanitized, so executed), with a button to "steal" page data.
+A small example of a XSS payload (sanitized and not sanitized), with a button to "steal" page data.
 
 - [xss-test.davidequirillo.eu](https://xss-test.davidequirillo.eu)
