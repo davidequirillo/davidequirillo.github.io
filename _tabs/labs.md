@@ -1,8 +1,10 @@
 ---
-title: Extra
+title: Labs
 icon: fas fa-project-diagram
-order: 5
+order: 2
 ---
+*"A collection of controlled environments and proof-of-concepts (PoC) designed to demonstrate common web vulnerabilities and their mitigations."*
+
 ## CSRF/CORS Defense: origin, referer, anti-csrf token
 This server-side web application has good defenses against CSRF (cross-site requests are not allowed). You can use "csrf-test" website to test it.
 
