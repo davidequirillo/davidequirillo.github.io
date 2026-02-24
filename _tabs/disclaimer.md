@@ -1,11 +1,11 @@
 ---
 title: Disclaimer
 icon: fas fa-scale-balanced
-order: 7
+order: 6
 ---
 ## ⚖️ Legal Disclaimer
 
-This website is a personal project by **Davide Quirillo**, dedicated to sharing experiments and reflections on cybersecurity and programming topics.
+This website is a personal project by **Davide Quirillo**, dedicated to show my projects and to sharing experiments on cybersecurity and programming topics.
 
 It's accessible through the domains davidequirillo.it and davidequirillo.eu, both of which redirect here for convenience.
 
