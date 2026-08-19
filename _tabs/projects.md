@@ -3,7 +3,7 @@ title: Projects
 icon: fas fa-code
 order: 1
 ---
-- [**Quidalert**](https://github.com/davidequirillo/quidalert): Quidalert is a network alert manager that can be used by users to send alerts and receive help from others: when the server receives an alert from a client (which runs the mobile app), it takes the alert description and the alert gps location, and then it sends a push notification to all geolocalized nearby clients and to the closest chief (called "chief manager"), to notify them about the alert. Stack: FastAPI, Flutter, PostgreSQL, Redis.
+- [**Quidalert**](https://github.com/davidequirillo/quidalert): a network alert manager that can be used by users to send alerts and receive help from others: when the server receives an alert from a client (which runs the mobile app), it takes the alert description and the alert gps location, then it sends a push notification to all geolocalized nearby clients and to the closest chief (called "chief manager"), to notify them about the alert. Stack: FastAPI, Flutter, PostgreSQL, Redis.
 
 - [**XSS Exec Checker**](https://github.com/davidequirillo/xss-exec-checker): a command-line tool written in Python language, useful to check if a specific web endpoint is vulnerable to XSS attack. The program runs a static check and a dynamic check (using a browser engine to detect XSS execution).
 
