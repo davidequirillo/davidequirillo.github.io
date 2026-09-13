@@ -6,9 +6,10 @@
 # - type: twitter
 #   icon: "fa-brands fa-x-twitter"
 
-# - type: email
-#   icon: "fas fa-envelope"
-#   noblank: true # open link in current tab
+- type: contact-form
+  icon: "fas fa-envelope"
+  url: 'https://contact.davidequirillo.eu'
+  noblank: true # open link in current tab
 
 # - type: rss
 #   icon: "fas fa-rss"

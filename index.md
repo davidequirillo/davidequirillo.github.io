@@ -28,6 +28,9 @@ Solving **medium-level CTFs** and researching vulnerabilities (such as XSS and C
 ### 🚀 Goal
 My goal is to transform complex architectural challenges into secure, elegant, and battle-hardened solutions. I am driven by the belief that a system is only as strong as its weakest link, and I work every day to strengthen those links through code and infrastructure.
 
+### 📧 Contact me
+If you'd like to contact me, write to me using the form available at the following link: [Contact page](https://contact.davidequirillo.eu)
+
 ---
 
 Check out my latest [Projects](/projects/), [CTF Writeups](/archives/) or [Labs](/labs/)
