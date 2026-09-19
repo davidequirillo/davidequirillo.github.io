@@ -145,3 +145,4 @@ We show only the first lines of the script's output without going any further to
     Login failed
     11;admin:daniel;csrf:5c4d65f2f195884d76c59bbad2beb6b8512e243d0013d3929341fe2c7291ff2b;captcha:HoaMA
     CAPTCHA incorrect.
+    
