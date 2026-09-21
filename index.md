@@ -28,9 +28,9 @@ Solving CTFs and researching web vulnerabilities actively drive my Security by D
 
 I build and maintain open-source software like **Quidalert** for the community. If you find my tools useful and want to support my ongoing development, development infrastructure costs, and independent security research, feel free to leave a tip or support my work:
 
-* ☕ **Buy Me a Coffee / Leave a Tip:** [buymeacoffee.com/davidequirillo](https://www.buymeacoffee.com/davidequirillo)
-* 💖 **GitHub Sponsors:** [github.com/sponsors/davidequirillo](https://github.com/sponsors/davidequirillo)
-* 💳 **PayPal:** [paypal.me/davidequirillo](https://paypal.me/davidequirillo)
+* ☕ **Ko-fi:** [ko-fi.com/davidequirillo](https://www.ko-fi.com/davidequirillo) *(Credit card or PayPal, no account required)*
+* ☕ **Buy Me a Coffee:** [buymeacoffee.com/davidequirillo](https://www.buymeacoffee.com/davidequirillo) *(Credit card, Apple/Google Pay, no account required)*
+* 💖 **GitHub Sponsors:** [github.com/sponsors/davidequirillo](https://github.com/sponsors/davidequirillo) *(GitHub account required)*
 
 *Note: All financial contributions are voluntary tips/support to sustain free and open-source software development*
 
