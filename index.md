@@ -4,32 +4,39 @@ title: About Me
 ---
 
 # Davide Quirillo
+
 ### **Software & Security Engineer | M.Sc. in Computer Science**
 
 > "Bridging the gap between robust software engineering and proactive security."
 
 As a *Master of Science graduate in Computer Science*, I combine a deep theoretical foundation in **distributed systems** with a hands-on passion for **offensive security**. My approach is simple: I build resilient systems by thinking like an attacker.
 
-Solving **medium-level CTFs** and researching vulnerabilities (such as XSS and CSRF) isn't just a hobby: it’s how I’ve shaped my **Security by Design** philosophy. I believe that scalability and performance are meaningless if they aren't backed by a secure architecture.
+Solving CTFs and researching web vulnerabilities actively drive my Security by Design philosophy. Scalability and performance are meaningless without a secure architecture.
 
 ---
 
 ### 🛠️ Current Focus & Projects
 
-* **Full-Stack Development**: 
-    designing high-performance client-server ecosystems using FastAPI and Flutter.
-* **Cloud & Orchestration**: 
-    I have architected my latest systems to be fully containerized and Kubernetes-ready, simulating production-grade environments to ensure maximum scalability and cost-efficiency.
-* **Security Research**:
-    developing custom tools and scripts to automate vulnerability assessment and strengthen system defenses.
+* **Open-Source Engineering:** Creator and lead developer of [Quidalert](https://github.com/davidequirillo/quidalert) — a modern open-source solution designed to provide real-time alerts to rescue teams and nearby users, so they can quickly reach those in need.
+* **Full-Stack Development:** Designing high-performance ecosystems using FastAPI and Flutter.
+* **Cloud & Orchestration:** Architecting containerized and Kubernetes-ready environments to ensure scalability and cost-efficiency.
+* **Security Research:** Developing custom tools and scripts to automate vulnerability assessment and strengthen system defenses.
 
 ---
 
-### 🚀 Goal
-My goal is to transform complex architectural challenges into secure, elegant, and battle-hardened solutions. I am driven by the belief that a system is only as strong as its weakest link, and I work every day to strengthen those links through code and infrastructure.
+### ☕ Support My Open-Source Work
+
+I build and maintain open-source software like **Quidalert** for the community. If you find my tools useful and want to support my ongoing development, development infrastructure costs, and independent security research, feel free to leave a tip or support my work:
+
+* ☕ **Buy Me a Coffee / Leave a Tip:** [buymeacoffee.com/davidequirillo](https://www.buymeacoffee.com/davidequirillo)
+* 💖 **GitHub Sponsors:** [github.com/sponsors/davidequirillo](https://github.com/sponsors/davidequirillo)
+* 💳 **PayPal:** [paypal.me/davidequirillo](https://paypal.me/davidequirillo)
+
+*Note: All financial contributions are voluntary tips/support to sustain free and open-source software development*
 
 ### 📧 Contact me
-If you'd like to contact me, write to me using the form available at the following link: [Contact page](https://contact.davidequirillo.eu)
+
+If you’d like to get in touch, feel free to write using the form available at the following link: [Contact page](https://contact.davidequirillo.eu)
 
 ---
 
