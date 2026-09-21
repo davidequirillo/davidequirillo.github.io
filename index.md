@@ -17,7 +17,7 @@ Solving CTFs and researching web vulnerabilities actively drive my Security by D
 
 ### 🛠️ Current Focus & Projects
 
-* **Open-Source Engineering:** Creator and lead developer of [Quidalert](https://github.com/davidequirillo/quidalert) — a modern open-source solution designed to provide real-time alerts to rescue teams and nearby users, so they can quickly reach those in need.
+* **Open-Source Engineering:** Creator and lead developer of **[Quidalert](https://github.com/davidequirillo/quidalert)** — a modern open-source solution designed to provide real-time alerts to rescue teams and nearby users, so they can quickly reach those in need.
 * **Full-Stack Development:** Designing high-performance ecosystems using FastAPI and Flutter.
 * **Cloud & Orchestration:** Architecting containerized and Kubernetes-ready environments to ensure scalability and cost-efficiency.
 * **Security Research:** Developing custom tools and scripts to automate vulnerability assessment and strengthen system defenses.
@@ -26,7 +26,7 @@ Solving CTFs and researching web vulnerabilities actively drive my Security by D
 
 ### ☕ Support My Open-Source Work
 
-I build and maintain open-source software like **Quidalert** for the community. If you find my tools useful and want to support my ongoing development, development infrastructure costs, and independent security research, feel free to leave a tip or support my work:
+I build and maintain open-source software like **[Quidalert](https://github.com/davidequirillo/quidalert)** for the community. If you find my tools useful and want to support my ongoing development, development infrastructure costs, and independent security research, feel free to leave a tip or support my work:
 
 * ☕ **Ko-fi:** [ko-fi.com/davidequirillo](https://www.ko-fi.com/davidequirillo) *(Credit card or PayPal, no account required)*
 * ☕ **Buy Me a Coffee:** [buymeacoffee.com/davidequirillo](https://www.buymeacoffee.com/davidequirillo) *(Credit card, Apple/Google Pay, no account required)*
