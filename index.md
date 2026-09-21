@@ -36,7 +36,7 @@ I build and maintain open-source software like **Quidalert** for the community. 
 
 ### 📧 Contact me
 
-If you’d like to get in touch, feel free to write using the form available at the following link: [Contact page](https://contact.davidequirillo.eu)
+If you'd like to get in touch, feel free to write using the form available at the following link: [Contact page](https://contact.davidequirillo.eu)
 
 ---
 
