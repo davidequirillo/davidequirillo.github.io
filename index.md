@@ -54,4 +54,4 @@ If you'd like to get in touch, feel free to contact me at the following email ad
 
 ---
 
-Check out my latest [Projects](/projects/), [CTF Writeups](/archives/) or [Labs](/labs/)
+Check out my latest [Projects](/projects/) or [CTF Writeups](/archives/)
