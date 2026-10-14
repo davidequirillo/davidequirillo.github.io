@@ -38,7 +38,19 @@ I build and maintain open-source software like **[Quidalert](https://github.com/
 
 If you'd like to get in touch, feel free to contact me at the following email address:
 
-<a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#105;&#110;&#102;&#111;&#064;&#100;&#097;&#118;&#105;&#100;&#101;&#113;&#117;&#105;&#114;&#105;&#108;&#108;&#111;&#046;&#101;&#117;">&#105;&#110;&#102;&#111;&#064;&#100;&#097;&#118;&#105;&#100;&#101;&#113;&#117;&#105;&#114;&#105;&#108;&#108;&#111;&#046;&#101;&#117;</a>
+<div markdown="0">
+  <span id="email-contact"></span>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const u = "info";
+      const d = "davidequirillo.eu";
+      const el = document.getElementById("email-contact");
+      if (el) {
+        el.innerHTML = '<a href="mailto:' + u + '@' + d + '">' + u + '@' + d + '</a>';
+      }
+    });
+  </script>
+</div>
 
 ---
 
