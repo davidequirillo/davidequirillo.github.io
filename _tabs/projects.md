@@ -9,4 +9,3 @@ order: 1
 
 - [**Sentinel**](https://github.com/davidequirillo/sentinel): an educational prototype that demonstrates how a multimodal AI system can ingest, analyze and summarize heterogeneous data streams in real time.
 The project is inspired by conceptual ideas seen in fictional films such as Person of Interest, but this implementation is strictly a technical experiment focused on concurrency, pipelines and AI preprocessing.
-
